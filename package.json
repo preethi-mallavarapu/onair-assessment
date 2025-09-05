@@ -1,0 +1,14 @@
+{
+  "name": "onair-assessment",
+  "version": "1.0.0",
+ 
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "author": "Preethi Mallavarapu<preethichowdary7799@gmail.com>",
+  "description": "QA Assessment - Automated tests for saucedemo.com",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
