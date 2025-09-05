@@ -47,7 +47,16 @@ This project validates login, logout, cart operations, and checkout flows to ens
     -   Checkout 1 item with sample user data → successful order completion with message:  
         `Thank you for your order!` on `/checkout-complete.html`.
         
+----------
+## Prerequisites
 
+1. Node.js (>= 18 recommended) → Download Node.js
+
+2. npm (comes with Node)
+
+3. Git (if cloning repo)
+
+4. Any IDE (Preferably Visual Studio Code)
 ----------
 
 ##  Setup & Installation
@@ -102,9 +111,27 @@ Open the report:
 `npm run report` 
 
 This launches the HTML report in your browser.
+
+##### To generate a PDF report:
+
+1. Open the report in the browser.
+
+2. Press Ctrl+P (Windows/Linux) or Cmd+P (Mac).
+
+3. Select Save as PDF and export.
     
 ----------
+## Assumptions
 
+1. Test data is limited to SauceDemo’s provided accounts.
+
+2. Only one item (Sauce Labs Backpack) is tested for add/remove/checkout scenarios.
+
+3. Running in headless mode by default; switch to --headed for debugging.
+
+4. Expected UI quirks for problem_user do not block test execution.
+
+----------
 ##  Sample Commands
 ```
 # Install dependencies 
