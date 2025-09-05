@@ -144,7 +144,7 @@ npm test
 npx playwright test --project=chromium 
 
 # Open HTML report 
-npm run report` 
+npm run report
 ```
 ----------
 
