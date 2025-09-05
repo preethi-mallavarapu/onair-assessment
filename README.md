@@ -9,13 +9,13 @@ This project validates login, logout, cart operations, and checkout flows to ens
 ## Project Structure
 
 ```
-`onair-assessment/
+onair-assessment/
 │── tests/
 │   └── saucedemo.spec.js # Main test suite 
 │── package.json # Dependencies and scripts 
 │── playwright.config.js # Playwright configuration (Chrome + Firefox) 
 │── README.md # Documentation 
-│── playwright-report/ # Test reports (generated after execution)` 
+│── playwright-report/ # Test reports (generated after execution)
 ```
 ----------
 
